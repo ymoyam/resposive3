@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> Formulario_contacto</title>
+<link rel="stylesheet" href="desafio3.css"/>
+<head>
+<body>
+<form action="/action_page.php" method="get" target="black">
+  <fieldset>
+    <legend>Informacion de Contacto</legend>
+
+    <label for="Nombre">Nombre:</label>
+    <input type="text" id="Nombre" placeholder="Juan Roman" />
+    </br>
+    <label for="telefono">Telefono de Contacto:</label>
+    <input type="number" name="numeros" placeholder="9-99999999"/>
+    </br>
+    <label for="E-Mail">E-Mail:</label>
+    <input type="email" name="correo" placeholder="ymoyam@hotmail.cl"/>
+  </br>
+    <label for="Fecha">Fecha de Contacto:</label>
+    <input type="date" name="fecha" placeholder="25/03/2019"/>
+    <br></br>
+    <label for for="Item"> Seleccione su Item:</label>
+      <select name="Item"></br>
+        <option value="R">Reclamos</option>
+        <option value="C">Consultas</option>
+        <option value="S">Sugerencias</option>
+        <option value="O">Opiniones</option>
+      </select>
+    </br>
+        <textarea rows="10" cols="100"></textarea>
+      </br>
+      </br>
+
+  <input type="reset" name="boton"/ value="reset">
+  <input type="submit" name="boton"/ value="enviar formulario">
+
+
+
+</fieldset>
+
+</form>
+</body>
+</html>
